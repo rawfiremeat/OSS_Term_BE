@@ -57,4 +57,4 @@ async def delete_comment(comments_id:int = Path(..., title = "the ID of the todo
     return {"msg" : "supplied ID doesn't exist"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=80)
